@@ -14,6 +14,8 @@ return {
             StatusLineNC = { bg = "#282828" },
             NormalFloat = { bg = "#282828" },
             FloatBorder = { bg = "#282828" },
+            NvimTreeStatusLine = { bg = "#282828", fg = "#282828" },
+            NvimTreeStatusLineNC = { bg = "#282828", fg = "#282828" },
         },
     },
     config = function(_, opts)
