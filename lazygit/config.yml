@@ -1,3 +1,5 @@
+quitOnTopLevelReturn: true
+
 gui:
     mouseEvents: false
     showCommandLog: false
