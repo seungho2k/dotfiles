@@ -1,8 +1,8 @@
 function fish_prompt
     set -l last_status $status
-    set -l hdr (set_color --bold green)
+    set -l hdr (set_color green)
     if test $last_status -ne 0
-        set hdr (set_color --bold red)
+        set hdr (set_color red)
     end
 
     set -l pwd (prompt_pwd)

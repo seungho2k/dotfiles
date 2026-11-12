@@ -21,9 +21,23 @@ users:
   group_root: {foreground: DarkGray}
 
 file_type:
-  build: {foreground: Yellow, is_bold: true, is_underline: false}
+  build: {foreground: Yellow, is_bold: false, is_underline: false}
+  video: {foreground: Purple, is_bold: false}
+  lossless: {foreground: Cyan, is_bold: false}
+  crypto: {foreground: Green, is_bold: false}
 
-punctuation: {foreground: DarkGray, is_bold: true}
+punctuation: {foreground: DarkGray, is_bold: false}
 date: {foreground: DarkGray}
 octal: {foreground: DarkGray}
 flags: {foreground: DarkGray}
+
+filekinds:
+  directory: {foreground: Blue, is_bold: false}
+  executable: {foreground: Green, is_bold: false}
+  block_device: {foreground: Yellow, is_bold: false}
+  char_device: {foreground: Yellow, is_bold: false}
+  socket: {foreground: Red, is_bold: false}
+  mount_point: {foreground: Blue, is_bold: false, is_underline: true}
+
+links:
+  normal: {foreground: Red, is_bold: false}

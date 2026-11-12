@@ -13,9 +13,6 @@ alias ls "eza --long --no-permissions --no-time --octal-permissions --group --so
 abbr lsa "ls --all"
 abbr lst "ls --tree --git-ignore"
 
-# Appearance
-set -g fish_color_command --bold
-
 # Environment Variables
 set -gx EDITOR nvim
 set -gx PATH "$HOME/.local/bin" $PATH
